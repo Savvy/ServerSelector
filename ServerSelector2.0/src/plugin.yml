@@ -1,0 +1,5 @@
+name: ServerSelector
+main: me.bpcarnage.ss.ServerSelector
+version: 1.0
+author: [Nix]
+commands:

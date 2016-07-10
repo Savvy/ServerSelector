@@ -1,0 +1,33 @@
+enabled: true
+
+player_connected: '&7You have connected to &3%server%&7.'
+
+selector:
+    slot: 1
+    name: '&bServer Selector'
+    item: GRASS
+    amount: 32
+    lore:
+      - 'This is line one'
+      - 'This is line two'
+      - 'This is line three'
+
+inventory:
+    name: '&bSelection Inventory'
+    glassPanes:
+        enabled: true
+        color: 14
+        slots: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 17, 18, 26, 27, 35, 36, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+    items:
+      item1:
+        slot: 13
+        name: '&bItem 1'
+        item: DIRT
+        amount: 3
+        bungee_servers:
+          - 'server_1'
+          - 'server_1'
+        lore:
+          - 'This is line one'
+          - 'This is line two'
+          - 'This is line three'
